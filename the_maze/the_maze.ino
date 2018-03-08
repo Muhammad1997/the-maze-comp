@@ -19,7 +19,7 @@ phone:01125424928
 #define tl 10 //left sonic trigger terminal
 #define el 11 //left sonic echo terminal
 
-float d1,d2,d3;
+float d1,d2,d3; //right,middle,left
 
 void setup() {
   

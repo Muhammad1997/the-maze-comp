@@ -8,14 +8,25 @@
   digitalWrite(m21,0);
   }
 
-  //func for stop
+  //func for stop by giving low signals
   
-  void stp(){
+  void stp_l(){
   analogWrite(m12,0);
   digitalWrite(m11,0);
   analogWrite(m22,0);
   digitalWrite(m21,0);    
     }
+
+    
+  //func for stop by giving high signals
+  
+  void stp_h(){
+  analogWrite(m12,1);
+  digitalWrite(m11,1);
+  analogWrite(m22,1);
+  digitalWrite(m21,1);    
+    }
+    
 
    //fun for move a little  
    
